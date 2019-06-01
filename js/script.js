@@ -1,22 +1,9 @@
-let i = 0;
-let images = [];
-let time = 3000;
-
-images[0] = 'image1.jpg';
-images[1] = 'image2.jpg';
-images[2] = 'image3.jpg';
-images[3] = 'image4.jpg';
+let navBtn = document.querySelector('.navbtn');
+let mobileNav = document.querySelector('.nav_container');
 
 
 
-function changeImg(){
-    document.querySelectorAll('.movies');
-    if(i < images.length -1){
-        i++;
-    }else{
-        i =0;
-    }
+navBtn.addEventListener('click', function(){
+    mobileNav.classList.toggle('shownav')
 
-    setTimeout('changeImg()', time);
-}
-
+});

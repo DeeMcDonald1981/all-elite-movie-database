@@ -12,26 +12,35 @@
 <body>
 
 <header id="header">
-    <div class="container">
+    <div class="container clearfix">
         <nav id="navigation" class="clearfix">
-					<div class="navleft">
-						<a class="logo" href="#home">All Elite <span>Box Office</span>	</a>
-						<a href="#">home<i class="fas fa-chevron-down"></i></a>
-						<a href="#">movies<i class="fas fa-chevron-down"></i></a>
-						<a href="#">celebrities<i class="fas fa-chevron-down"></i></a>
-						<a href="#">news<i class="fas fa-chevron-down"></i></a>
-						<a href="#">community<i class="fas fa-chevron-down"></i></a>
+			<a class="logo" href="#home">All Elite <span>Box Office</span>	</a>
+					<div class="nav_container clearfix">
+						<div class="navleft">
+							<a href="#">home<i class="fas fa-chevron-down"></i></a>
+							<a href="#">movies<i class="fas fa-chevron-down"></i></a>
+							<a href="#">celebrities<i class="fas fa-chevron-down"></i></a>
+							<a href="#">news<i class="fas fa-chevron-down"></i></a>
+							<a href="#">community<i class="fas fa-chevron-down"></i></a>
+						</div>
+						<div class="navright">
+							<a href="#">pages<i class="fas fa-chevron-down"></i></a>
+							<a href="#">help</a>
+							<a href="#">log in</a>
+							<button class="signup">sign up</button>
+						</div>	
 					</div>
-					<div class="navright">
-						<a href="#">pages<i class="fas fa-chevron-down"></i></a>
-						<a href="#">help</a>
-						<a href="#">log in</a>
-						<button class="signup">sign up</button>
-					</div>	
-				</nav>
 
+					
+					<div class="navbtn">
+						<div class="navbar"></div>
+						<div class="navbar"></div>
+						<div class="navbar"></div>
+					</div>
+				</nav>
 				<div class="clearfix"></div>
 
+				
 				<div class="search_bar clearfix">
 					<form>
 						<select name="" id="">
@@ -40,13 +49,12 @@
 							<option value="">box office</option>
 						</select>
 						<div class="search">
-
+							
 							<input type="text" placeholder="search for a movie, TV Show celebrity or box office stats"><i class="fas fa-search"></i>
 						</div>
-				</form>
-			</div>
-
-				<div class="clearfix"></div>
+					</form>
+				</div>
+				
 
 				<div class="social_bar clearfix">
 					<div class="social follow ">
@@ -75,7 +83,8 @@
 
 				<div class="clearfix"></div>
 
-        <div class="nav_slider slider_one clearfix">
+				<div class="nav_slider slider_one">
+					<i class="fas fa-chevron-left"  id="prev"></i>
 					<div class="movies one">
 							<img src="./img/image1.jpg" alt="">
 					</div>
@@ -88,13 +97,14 @@
 					<div class="movies one">
 							<img src="./img/image4.jpg" alt="">
 					</div>
-				</div>
+					<i class="fas fa-chevron-right" id="next"></i>
+				</div><!-- nav_slider -->
 				
     </div><!-- container -->
 </header>
 
 <div class="clearfix"></div>
-<section id="in_theaters">
+<section id="in_theaters" class="clearfix">
     <div class="container clearfix">
 			<div class="left top">
 				<div class="title clearfix">
@@ -109,7 +119,7 @@
 					<a href="#">#most reviewed</a>
 				</div>
 
-        <div class="nav_slider slider_two clearfix">
+				<div class="nav_slider slider_two clearfix">
 					<div class="movies one">
 							<img src="./img/image5.jpg" alt="">
 					</div>
@@ -122,14 +132,13 @@
 					<div class="movies one">
 							<img src="./img/image8.jpg" alt="">
 					</div>
-				</div>
+				</div><!-- nav_slider -->
 				
 
-			</div>
-			<div class="left bottom">
-			<div class="title clearfix">
-						<h3>on tv</h3>
-					<a href="#">view all <i class="fas fa-chevron-right"></i></a>
+				
+				<div class="title clearfix">
+							<h3>on tv</h3>
+						<a href="#">view all <i class="fas fa-chevron-right"></i></a>
 				</div>
 
 				<div class="hashtags clearfix">
@@ -139,7 +148,8 @@
 					<a href="#">#most reviewed</a>
 				</div>
 
-        <div class="nav_slider slider_three clearfix">
+				
+				<div class="nav_slider slider_three clearfix">
 					<div class="movies one">
 							<img src="./img/image9.jpg" alt="">
 					</div>
@@ -154,32 +164,93 @@
 					</div>
 				</div>
 
+			</div><!--left bottom -->
 
 
-			</div>
-			<div class="right">
 
-			</div>
-    </div>
+
+			<div class="right clearfix">
+				<h4>spotlight celebrities</h4>
+				<div class="celeb_container clearfix">
+
+					<div class="celeb_img">
+						<img src="./img/celebs/rdj.jpg" alt="">
+					</div>
+					<div class="celeb_info">
+						<p class="name">Robert Downey Jr</p>
+						<p class="profession">Actor</p>
+					</div>
+				</div><!-- celeb_container -->
+
+				<div class="celeb_container clearfix">
+
+					<div class="celeb_img">
+						<img src="./img/celebs/rdj.jpg" alt="">
+					</div>
+					<div class="celeb_info">
+						<p class="name">Robert Downey Jr</p>
+						<p class="profession">Actor</p>
+					</div>
+				</div><!-- celeb_container -->
+				<div class="celeb_container clearfix">
+
+					<div class="celeb_img">
+						<img src="./img/celebs/rdj.jpg" alt="">
+					</div>
+					<div class="celeb_info">
+						<p class="name">Robert Downey Jr</p>
+						<p class="profession">Actor</p>
+					</div>
+				</div><!-- celeb_container -->
+				<div class="celeb_container clearfix">
+
+					<div class="celeb_img">
+						<img src="./img/celebs/rdj.jpg" alt="">
+					</div>
+					<div class="celeb_info">
+						<p class="name">Robert Downey Jr</p>
+						<p class="profession">Actor</p>
+					</div>
+				</div><!-- celeb_container -->
+				<div class="celeb_link">
+
+					<a href="#">see all celebrities <i class="fas fa-chevron-right"></i></a>
+				</div>
+			</div><!-- right -->
+
+
+    </div><!-- contianer -->
 </section>
 
 
-<section id="on_tv">
-    <div class="container">
-
-    </div>
-</section>
 
 <section id="trailers">
-    <div class="container">
+    <div class="container clearfix">
+		<div class="title clearfix">
 
+			<h4>movie trailers</h4>
+			<a href="#">view all <i class="fas fa-chevron-right"></i></a>
+		</div>
+
+		<div class="media_box clearfix">
+			<div class="media">
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
+			</div>
+			<div class="media_content">
+
+			</div>
+		</div>
     </div>
 </section>
 
 <section id="news">
-    <div class="container">
+    <div class="container clearfix">
+		<div class="title clearfix">
 
-    </div>
+			<h4>latest news</h4>
+			<a href="#">view all <i class="fas fa-chevron-right"></i></a>
+		</div>
+	</div>
 </section>
 
 <footer id="footer">
