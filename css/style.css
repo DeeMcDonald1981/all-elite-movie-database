@@ -507,6 +507,13 @@ header {
   float: left;
   padding: 20px; }
 
+@media screen and (max-width: 900px) {
+  #footer .cols {
+    float: none;
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    height: 200px; } }
+
 #footer .cols a {
   display: block;
   text-align: center;
@@ -544,6 +551,12 @@ header {
 
 #footer .cols.one .phone span {
   font-size: 12px; }
+
+@media screen and (max-width: 1100px) {
+  #footer .cols.one .phone {
+    font-size: 12px; }
+  #footer .cols.one .phone span {
+    font-size: 10px; } }
 
 #footer .cols.two, #footer .cols.three, #footer .cols.four {
   line-height: 1.8; }
@@ -593,14 +606,23 @@ header {
   position: relative; }
 
 #footer .copyright p {
+  float: left;
   font-size: 12px; }
 
-#footer .top {
-  position: absolute;
-  right: 0;
-  top: 0; }
+@media screen and (max-width: 600px) {
+  #footer .copyright p {
+    font-size: 10px;
+    position: relative;
+    top: 6px;
+    margin-bottom: 10px;
+    float: none; } }
 
 #footer .top a {
+  float: right;
   text-decoration: none;
   color: #ffffff;
   font-size: 12px; }
+
+@media screen and (max-width: 600px) {
+  #footer .top a {
+    float: none; } }

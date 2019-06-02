@@ -355,7 +355,7 @@ to get latest news from us.</p>
 	</div>
 		
 		<div class="copyright">
-			<div class="container">
+			<div class="container clearfix">
 				<p>&copy; <?php echo date('Y')?> All Elite Box Office. All Right Reserved. Designed By Dee McDonald</p>
 				<div class="top">
 					<a href="#top">Back top top <i class="fas fa-arrow-up"></i></a>
