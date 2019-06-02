@@ -17,11 +17,11 @@
 			<a class="logo" href="#home">All Elite <span>Box Office</span>	</a>
 					<div class="nav_container clearfix">
 						<div class="navleft">
-							<a href="#">home<i class="fas fa-chevron-down"></i></a>
-							<a href="#">movies<i class="fas fa-chevron-down"></i></a>
-							<a href="#">celebrities<i class="fas fa-chevron-down"></i></a>
-							<a href="#">news<i class="fas fa-chevron-down"></i></a>
-							<a href="#">community<i class="fas fa-chevron-down"></i></a>
+							<a href="#">home <i class="fas fa-chevron-down"></i></a>
+							<a href="#">movies <i class="fas fa-chevron-down"></i></a>
+							<a href="#">celebrities <i class="fas fa-chevron-down"></i></a>
+							<a href="#">news <i class="fas fa-chevron-down"></i></a>
+							<a href="#">community <i class="fas fa-chevron-down"></i></a>
 						</div>
 						<div class="navright">
 							<a href="#">pages<i class="fas fa-chevron-down"></i></a>
@@ -185,30 +185,30 @@
 				<div class="celeb_container clearfix">
 
 					<div class="celeb_img">
-						<img src="./img/celebs/rdj.jpg" alt="">
+						<img src="./img/celebs/scarlett.jpg" alt="">
 					</div>
 					<div class="celeb_info">
-						<p class="name">Robert Downey Jr</p>
+						<p class="name">Scarlett Johansson</p>
 						<p class="profession">Actor</p>
 					</div>
 				</div><!-- celeb_container -->
 				<div class="celeb_container clearfix">
 
 					<div class="celeb_img">
-						<img src="./img/celebs/rdj.jpg" alt="">
+						<img src="./img/celebs/hemsworth.jpg" alt="">
 					</div>
 					<div class="celeb_info">
-						<p class="name">Robert Downey Jr</p>
+						<p class="name">Chris Hemsworth</p>
 						<p class="profession">Actor</p>
 					</div>
 				</div><!-- celeb_container -->
 				<div class="celeb_container clearfix">
 
 					<div class="celeb_img">
-						<img src="./img/celebs/rdj.jpg" alt="">
+						<img src="./img/celebs/evans.jpg" alt="">
 					</div>
 					<div class="celeb_info">
-						<p class="name">Robert Downey Jr</p>
+						<p class="name">Chris Evans</p>
 						<p class="profession">Actor</p>
 					</div>
 				</div><!-- celeb_container -->
@@ -233,10 +233,74 @@
 		</div>
 
 		<div class="media_box clearfix">
-			<div class="media">
+			<div class="media one">
 				<iframe width="100%" height="400" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
 			</div>
-			<div class="media_content">
+			<div class="media two">
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
+			</div>
+			<div class="media three">
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
+			</div>
+			<div class="media four">
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
+			</div>
+			<div class="media five">
+				<iframe width="100%" height="400" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
+			</div>
+			<div class="media_content clearfix">
+				<i class="fas fa-chevron-up"></i>
+				<div class="media_container clearfix">
+
+					<div class="media_img">
+					<img src="./img/media_desc/endgame.jpg" alt="">
+					</div>
+					<div class="media_desc">
+						<p>Avengers Engame</p>
+						<p>2:26</p>
+					</div>
+				</div><!-- media_container -->
+				<div class="media_container clearfix">
+
+					<div class="media_img">
+						<img src="./img/media_desc/endgame.jpg" alt="">
+					</div>
+					<div class="media_desc">
+						<p>Avengers Engame</p>
+						<p>2:26</p>
+					</div>
+				</div><!-- media_container -->
+				<div class="media_container clearfix">
+
+					<div class="media_img">
+					<img src="./img/media_desc/endgame.jpg" alt="">
+					</div>
+					<div class="media_desc">
+						<p>Avengers Engame</p>
+						<p>2:26</p>
+					</div>
+				</div><!-- media_container -->
+				<div class="media_container clearfix">
+
+					<div class="media_img">
+					<img src="./img/media_desc/endgame.jpg" alt="">
+					</div>
+					<div class="media_desc">
+						<p>Avengers Engame</p>
+						<p>2:26</p>
+					</div>
+				</div><!-- media_container -->
+				<div class="media_container clearfix">
+
+					<div class="media_img">
+					<img src="./img/media_desc/endgame.jpg" alt="">
+					</div>
+					<div class="media_desc">
+						<p>Avengers Engame</p>
+						<p>2:26</p>
+					</div>
+				</div><!-- media_container -->
+				<i class="fas fa-chevron-down"></i>
 
 			</div>
 		</div>
