@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<header id="header">
+<header id="header top">
     <div class="container clearfix">
         <nav id="navigation" class="clearfix">
 			<a class="logo" href="#home">All Elite <span>Box Office</span>	</a>
@@ -237,17 +237,17 @@
 				<iframe width="100%" height="400" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
 			</div>
 			<div class="media two">
-				<iframe width="100%" height="400" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
+			<iframe width="100%" height="400" src="https://www.youtube.com/embed/QFxN2oDKk0E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
 			</div>
 			<div class="media three">
-				<iframe width="100%" height="400" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
+			<iframe width="100%" height="400" src="https://www.youtube.com/embed/QFxN2oDKk0E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
 			</div>
 			<div class="media four">
-				<iframe width="100%" height="400" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
-			</div>
+			<iframe width="100%" height="400" src="https://www.youtube.com/embed/Nt9L1jCKGnE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+				</div>
 			<div class="media five">
-				<iframe width="100%" height="400" src="https://www.youtube.com/embed/TcMBFSGVi1c" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>			
-			</div>
+			<iframe width="100%" height="400" src="https://www.youtube.com/embed/QwievZ1Tx-8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>		
+				</div>
 			<div class="media_content clearfix">
 				<i class="fas fa-chevron-up"></i>
 				<div class="media_container clearfix">
@@ -263,41 +263,41 @@
 				<div class="media_container clearfix">
 
 					<div class="media_img">
-						<img src="./img/media_desc/endgame.jpg" alt="">
+						<img src="./img/media_desc/godzilla.jpg" alt="">
 					</div>
 					<div class="media_desc">
-						<p>Avengers Engame</p>
-						<p>2:26</p>
+						<p>Godzilla: King of the Monsters</p>
+						<p>2:13</p>
 					</div>
 				</div><!-- media_container -->
 				<div class="media_container clearfix">
 
 					<div class="media_img">
-					<img src="./img/media_desc/endgame.jpg" alt="">
+					<img src="./img/media_desc/phoenix.jpg" alt="">
 					</div>
 					<div class="media_desc">
-						<p>Avengers Engame</p>
-						<p>2:26</p>
+						<p>Dark Phoenix</p>
+						<p>2:03</p>
 					</div>
 				</div><!-- media_container -->
 				<div class="media_container clearfix">
 
 					<div class="media_img">
-					<img src="./img/media_desc/endgame.jpg" alt="">
+					<img src="./img/media_desc/spiderman.jpg" alt="">
 					</div>
 					<div class="media_desc">
-						<p>Avengers Engame</p>
-						<p>2:26</p>
+						<p>Spider-Man: Far from Home</p>
+						<p>2:58</p>
 					</div>
 				</div><!-- media_container -->
 				<div class="media_container clearfix">
 
 					<div class="media_img">
-					<img src="./img/media_desc/endgame.jpg" alt="">
+					<img src="./img/media_desc/infinity.png" alt="">
 					</div>
 					<div class="media_desc">
-						<p>Avengers Engame</p>
-						<p>2:26</p>
+						<p>Avengers: Infinity War</p>
+						<p>2:18</p>
 					</div>
 				</div><!-- media_container -->
 				<i class="fas fa-chevron-down"></i>
@@ -307,21 +307,63 @@
     </div>
 </section>
 
-<section id="news">
-    <div class="container clearfix">
-		<div class="title clearfix">
-
-			<h4>latest news</h4>
-			<a href="#">view all <i class="fas fa-chevron-right"></i></a>
-		</div>
-	</div>
-</section>
 
 <footer id="footer">
-    <div class="container">
-        
-    </div>
+		<div class="container clearfix">
+			<div class="cols one">
+				<a class="logo" href="#home">All Elite <span>Box Office</span>	</a>
+				<p>999 Marietta St</p>
+				<p>Atlanta, GA 30328</p>
+				<p class="phone"><span>Call us</span> <i class="fas fa-phone"></i> 770-222-2222</p>
+			</div>
+			<div class="cols two">
+				<h4>Resources</h4>
+				<a href="#">About</a>
+				<a href="#">All Elite</a>
+				<a href="#">Contact Us</a>
+				<a href="#">Forums</a>
+				<a href="#">Blog</a>
+				<a href="#">Help Center</a>
+			</div>
+			<div class="cols three">
+				<h4>Legal</h4>
+				<a href="#">Terms of Use</a>
+				<a href="#">Privacy Policy</a>
+				<a href="#">Security</a>
+			</div>
+        <div class="cols four">
+		<h4>Account</h4>
+		<a href="#">About</a>
+				<a href="#">My Account</a>
+				<a href="#">Watchlist</a>
+				<a href="#">Collections</a>
+				<a href="#">User Guide</a>
+		</div>
+        <div class="cols five">
+			<h4>Newsletter</h4>
+			<p>Subscribe to our newsletter system now 
+to get latest news from us.</p>
+			<form action="">
+				<div class="form_control">
+
+					<input type="text" placeholder="Enter your email...">
+					<i class="fas fa-envelope"></i>
+				</div>
+			</form>
+			<a href="#" class="subscribe">subscribe now</a>
+		</div>
+	</div>
+		
+		<div class="copyright">
+			<div class="container">
+				<p>&copy; <?php echo date('Y')?> All Elite Box Office. All Right Reserved. Designed By Dee McDonald</p>
+				<div class="top">
+					<a href="#top">Back top top <i class="fas fa-arrow-up"></i></a>
+				</div>
+			</div>
+		</div>
 </footer>
+
 
 
 
